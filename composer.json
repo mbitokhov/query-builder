@@ -1,0 +1,19 @@
+{
+    "name": "michael/query-builder",
+    "description": "Inspired by Laravel's Query Builder",
+    "type": "package",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Michael",
+            "email": "michael.bitokhov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "QueryBuilder": "src"
+        }
+    }
+}
