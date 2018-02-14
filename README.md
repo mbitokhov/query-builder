@@ -1,14 +1,14 @@
 # query-builder
 A query builder heavily inspired by Laravel's query builder. Supports PHP 5.3
 
-I've taken a lot of time to make sure I didn't simply copy the code and release it in a different license. But they are so many ways to write the same code. 
+I've taken a lot of time to make sure I didn't simply copy the code and release it in a different license. But they are so many ways to write the same code. If you find anything that's questionable in terms of licensing, please tell me so I can remove it immediately 
 
 There are some design patterns I love about Laravel's query builder. And there are some design patterns that I believe could have been done better. I've tried to push for a completely new implementations of the basic premise, but still using the same interface we all know and love from Laravel
 
 ## Usage
 So far there's not much that can be done yet. But future goals including supporting most of the Laravel query building functions while providing an even more extensible and hackable interface
 
-The only thing that's implemented yet is `where`
+The only thing that's implemented is `where`
 
 ```php
 <?php
